@@ -49,7 +49,7 @@ footer {
  font-style: normal;
 }
 /* style for text */
-li {
+.list {
   list-style-type: none;
 }
 h1 {
@@ -81,7 +81,7 @@ h4 {
   font-size: 26px;
   color: var(--assent-color);
 }
-a {
+.link {
   display: block;
   text-decoration: none;
 }
