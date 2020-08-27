@@ -221,7 +221,7 @@ button {
 }
 .services-item {
   width: calc((100% - 60px * 3) / 4);
-  margin-right: 30px;
+  margin-right: 60px;
   margin-bottom: 30px;
 }
 .advantages {
@@ -247,12 +247,14 @@ button {
 }
 
 .team-item {
-  width: calc((100% - 60px * 3) / 4);
-  /* margin: 15px; */
+  width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.team-item:nth-child(3n) {
+.team-item:nth-child(4n) {
   margin-right: 0;
+}
+.name {
+  text-align: center;
 }
