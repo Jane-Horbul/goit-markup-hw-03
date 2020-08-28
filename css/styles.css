@@ -165,8 +165,8 @@ li.active a span {
 /*main content*/
 
 .sorter {
-  display: inline-flex;
-  background: var(--bg-color);
+  margin-right: auto;
+  margin-left: auto;
 }
 /*.sorter li {
   float: left;
@@ -175,11 +175,11 @@ li.active a span {
   word-wrap: normal;
   font-size: 15px;
   margin-bottom: 20px;
-}*/
+}
 .sorter-item:hover {
   background: var(--assent-color);
   color: var(--white-color);
-}
+}*/
 .sorter-list {
   display: flex;
   flex-wrap: wrap;
@@ -211,13 +211,20 @@ aside {
   font-family: "Roboto", sans-serif;
 }
 .btn {
-  background: var(--bg-color);
-  height: 38px;
+  background-color: var(--bg-color);
+  border: none;
   color: var(--title-text-color);
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  border-radius: 4px;
   margin-right: 10px;
   margin-bottom: 50px;
+  margin-top: 110px;
+  padding: 10px 25px;
+}
+.btn:hover {
+  background-color: var(--assent-color);
+  color: var(--white-color);
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .section {
   padding-top: 110px;
