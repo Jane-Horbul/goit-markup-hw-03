@@ -85,6 +85,7 @@ footer {
 h1 {
   font-size: 44px;
   color: var(--white-color);
+  letter-spacing: 0.06em;
 }
 h2 {
   font-size: 36px;
@@ -164,9 +165,11 @@ li.active a span {
 
 /*main content*/
 
-/*.sorter {
+.sorter {
+  display: flex;
+  justify-content: center;
 }
-*/
+
 .slidebar {
   text-align: center;
   display: block;
@@ -222,6 +225,13 @@ aside {
   color: var(--white-color);
   box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+.btn-group {
+  display: inline-block;
+}
+.btn-group:hover {
+  color: var(--white-color);
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 .section {
   padding-top: 110px;
 }
@@ -238,6 +248,12 @@ aside {
 }
 .advantages {
   padding-top: 95px;
+}
+.advantages-title {
+  text-transform: uppercase;
+}
+.advantages-content {
+  letter-spacing: 0.03em;
 }
 .advantages-list {
   display: flex;
