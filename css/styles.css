@@ -164,22 +164,16 @@ li.active a span {
 
 /*main content*/
 
-.sorter {
-  margin-right: auto;
+/*.sorter {
+}
+*/
+.slidebar {
+  text-align: center;
+  display: block;
   margin-left: auto;
+  margin-right: auto;
+  padding-top: 215px;
 }
-/*.sorter li {
-  float: left;
-  padding: 10px 18px;
-  margin-right: 4px;
-  word-wrap: normal;
-  font-size: 15px;
-  margin-bottom: 20px;
-}
-.sorter-item:hover {
-  background: var(--assent-color);
-  color: var(--white-color);
-}*/
 .sorter-list {
   display: flex;
   flex-wrap: wrap;
@@ -199,16 +193,18 @@ li.active a span {
 
 aside {
   background: var(--secondr-bg-color);
-  width: 1600px;
+  width: 100%;
   height: 600px;
 }
 .btn-main {
-  background: var(--assent-color);
+  background-color: var(--assent-color);
+  border: none;
+  color: var(--bg-color);
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 45px;
   width: 200px;
   height: 50px;
-  color: var(--white-color);
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
 }
 .btn {
   background-color: var(--bg-color);
@@ -279,4 +275,8 @@ aside {
   border-bottom-left-radius: 10px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.contacts-box {
+  margin-top: 65px;
+  margin-bottom: 60px;
 }
